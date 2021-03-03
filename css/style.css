@@ -1,0 +1,88 @@
+
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: sans-serif
+}
+h1{
+    text-align: center; 
+    border: 1px solid #ff0000;
+    border-radius: 20px;
+     width: 400px; 
+     margin: 0 auto;
+     margin-top: 30px;
+     margin-bottom: 30px;
+
+}
+/* Top-part of cv */
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ff0000;
+    margin-bottom: 80px;
+}
+
+.header-container .photo img{
+    height: 300px;
+    width: auto;
+    border-radius: 30px;
+}
+
+ .header-container .up-information div{
+     display: flex;
+     margin-top: 40px;
+ }
+
+ .header-container .up-information .list-up-top-1 li{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+
+ .header-container .up-information .list-up-top-2 li{
+   list-style-type: none;
+   border-bottom: 1px solid #ff0000;
+}
+
+/* Main part of cv */
+
+/* Short information */
+.main-container .main-up{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container .list-main-up-1 li{
+    list-style-type: none;
+    font-weight: bold;
+    width: 200px;
+}
+
+ .main-container .list-main-up-2 li{
+   list-style-type: none;
+   border-bottom: 1px solid #ff0000;
+   width: 700px;
+}
+
+/* other information */
+.main-container .main-down{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main-container .list-main-down-1 li{
+    list-style-type: none;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+ .main-container .list-main-down-2 li{
+   list-style-type: none;
+   border-bottom: 1px solid #ff0000;
+   width: 700px;
+   margin-bottom: 30px;
+}
+
+
